@@ -1,0 +1,13 @@
+<DOCTYPE! html>
+    <html>
+      <head>
+        <title>What is your favorite color?</title>
+      </head>
+      <body>
+        <form method="post", action="{{ url_for('submit') }}">
+        <label for="color">What is your favorite color?</label>
+        <input name="color" id="color">
+        <button>Submit!</button>
+        </form>
+      </body>
+    </html>
